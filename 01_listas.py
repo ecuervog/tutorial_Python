@@ -142,23 +142,23 @@ print(listavacia)
 #Ejercicios:
 #
 #1. Pon la instrucción para que imprima el segundo elemento en la lista.
-#   frutas=["manzana", "cereza", "agua"]
-#   print(____)
+frutas=["manzana", "cereza", "agua"]
+
+print(frutas[1])
 #
 #
 #2. Agrega el elemento "naranja" a la lista
-#   frutas=["manzana", "cereza", "agua"]
-#
-#
+frutas=["manzana", "cereza", "agua"]
+frutas.append('naranja')
+
 #3. Quita el elemento "cereza" de la lista
-#   frutas=["manzana", "cereza", "agua", "naranja"]
-#
-#
+frutas=["manzana", "cereza", "agua", "naranja"]
+del frutas[1]
+
 #4. Usa el indexado negativo para imprimir el último elemento de la lista
-#   frutas=["manzana", "cereza", "agua", "naranja"]
-#   print(____)
-#
+frutas=["manzana", "cereza", "agua", "naranja"]
+print(frutas[-1])
+
 #5. Imprime el tercer, cuarto y quinto elemento de la lista
-#   frutas=["manzana", "cereza", "agua", "naranja", "kiwi"]
-#   print(frutas(____))
-#
+frutas=["manzana", "cereza", "agua", "naranja", "kiwi"]
+print(frutas[2:5])
